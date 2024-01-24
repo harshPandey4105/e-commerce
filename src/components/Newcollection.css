@@ -1,0 +1,21 @@
+/* .pw hr{
+    border: 1px solid black;
+    margin-left: 25%;
+    width:50%;
+    text-align:center;
+    margin-top: 10px ;
+    margin-bottom: 40px ;
+
+} */
+.new-collections{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.new hr{
+    margin: 20px;
+    width: 30%;
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 34%;
+}

@@ -1,0 +1,13 @@
+.pw hr{
+    border: 1px solid black;
+    margin-left: 25%;
+    width:50%;
+    text-align:center;
+    margin-top: 10px ;
+    margin-bottom: 40px ;
+
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+}

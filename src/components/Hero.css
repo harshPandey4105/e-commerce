@@ -1,0 +1,20 @@
+.hero-section img{
+    height: 100vh;
+    width: 100%;
+}
+.my-button {
+    background-color:hsla(351, 79%, 81%, 0.849); 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 25px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    position: relative;
+    bottom: 170px;
+}
+.my-button:active{
+    background-color:hwb(351 68% 11% / 0.849);
+}
+
+

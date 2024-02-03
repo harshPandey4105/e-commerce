@@ -1,6 +1,6 @@
 import React from "react";
 import './breadcrum.css'
-import ratingStar from '../images/dataImages/ratingStars.png'
+import ratingStar from '../images/dataImages/ratingStars.png';
 const Breadcrum = (props) => {
     const product = props;
     return (

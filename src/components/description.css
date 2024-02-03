@@ -1,0 +1,25 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+
+.description-section{
+   width: 100%;
+}
+.description-section p{
+    background-color: #e9e0e0d7;
+    margin: 40px 0;
+    padding: 40px;
+    border-radius: 10px;
+}
+.description-section hr{
+    margin: 10px 80px;
+}
+
+@media only screen and (min-width: 960px){
+    .description-section p{
+        background-color: #e9e0e0d7;
+        margin: 40px 0;
+        font-size: small;
+    }
+}

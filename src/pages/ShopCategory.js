@@ -10,6 +10,9 @@ const ShopCategory = (props) => {
             <div className="banner-section">
                 <img src={props.banner} alt="banner-img" />
             </div>
+            {/* <div className="banner-section2">
+                <img src={props.banner} alt="banner-img" />
+            </div> */}
             <div className="text-section">
                 <p>Showing 1-12 out of 36 products</p>
             </div>
@@ -17,7 +20,7 @@ const ShopCategory = (props) => {
                 {
                     all_products.map((item) => {
                         if (item.category === props.category) {
-                            return <Item image={item.image} name={item.name} old_price={item.old_price} new_price={item.new_price} />
+                            return <Item id={item.id} image={item.image} name={item.name} old_price={item.old_price} new_price={item.new_price} />
                         }
                         else {
                             return null;

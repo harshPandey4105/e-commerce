@@ -13,8 +13,20 @@
     position: relative;
     bottom: 170px;
 }
+
+.hero2{
+    display: none;
+}
 .my-button:active{
     background-color:hwb(351 68% 11% / 0.849);
 }
 
 
+@media only screen and (max-width: 600px){
+    .hero1{
+        display: none;
+    }
+    .hero2{
+        display: block;
+    }
+}

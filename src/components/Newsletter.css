@@ -39,3 +39,42 @@
     right: 50px;
 }
 
+@media only screen and (max-width: 630px){
+    .newletter{
+        margin: 20px 0;
+    }
+    .newLetterBox h1{
+        font-size: 30px;
+    }
+    .newLetterBox p{
+        font-size: 15px;
+    } 
+    .newLetterBox div input{
+        font-size: 8px;
+        width: 150px;
+    }
+    .newLetterBox div button{
+        font-size: 8px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .newletter{
+        margin: 20px 0;
+    }
+    .newLetterBox h1{
+        font-size: 20px;
+    }
+    .newLetterBox p{
+        font-size: 10px;
+    } 
+    .newLetterBox div input{
+        font-size: 5px;
+        width: 100px;
+    }
+    .newLetterBox div button{
+        font-size: 5px;
+        padding: 10px 10px;
+        position: relative;
+        right: 30px;
+    }
+}

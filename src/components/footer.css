@@ -24,6 +24,10 @@ footer ul{
     justify-content: center;
     align-items: center;
 }
+footer ul li{
+    list-style-type: none;
+    padding: 0 10px;
+}
 .social-media-section{
     display: flex;
     gap: 30px;
@@ -37,5 +41,11 @@ footer ul{
 
 .copyright-section {
     padding: 10px;
-    
 }
+@media only screen and (max-width: 600px) {
+    footer ul{
+        display: flex;
+        flex-direction: column;
+        margin-right: 40px;
+    }
+ }

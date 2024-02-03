@@ -1,12 +1,4 @@
-/* .pw hr{
-    border: 1px solid black;
-    margin-left: 25%;
-    width:50%;
-    text-align:center;
-    margin-top: 10px ;
-    margin-bottom: 40px ;
 
-} */
 .new-collections{
     display: grid;
     justify-content: space-around;
@@ -18,4 +10,25 @@
     border: 2px solid black;
     text-align: center;
     margin-left: 34%;
+}
+
+@media only screen and (max-width: 1300px){
+    .new-collections{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .new-collections{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (max-width: 630px){
+    .new-collections{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
 }

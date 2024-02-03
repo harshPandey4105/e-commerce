@@ -9,19 +9,22 @@ import menBanner from './images/dataImages/menBanner.webp';
 import womenBanner from './images/dataImages/womenBanner.jpg';
 import kidsBanner from './images/dataImages/kidsBanner.jpg';
 import Login_Signup from './pages/loginSignup';
+import Product from './pages/product';
+import Resnav from './components/resnav';
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Navbar />
+        {/* <Navbar /> */}
+        <Resnav/>
         <Routes>
           <Route path='/' element={<Shop/>} />
           <Route path='/men' element={<ShopCategory banner={menBanner} category='men'/>} />
           <Route path='/women' element={<ShopCategory banner={womenBanner} category='women'/>} />
           <Route path='/kids' element={<ShopCategory banner={kidsBanner} category='kids'/>} />
 
-          <Route path='/product' element={<h1>product</h1>}>
-            <Route path=':productId'element={<h1>productId</h1>}/>
+          <Route path='/product' element={<Product/>}>
+            <Route path=':productId' element={<Product/>}/>
           </Route>
 
           <Route path='/login' element={<Login_Signup/>} />

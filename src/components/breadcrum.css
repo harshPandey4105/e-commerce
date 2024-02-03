@@ -1,0 +1,116 @@
+.path-section{
+    display: flex;
+    justify-content: left;
+    margin: 20px 50px;
+}
+.product-section{
+    display: flex;
+}
+.image-section{
+    width: 50%;
+    display: flex;
+    margin: 50px 0;
+}
+.large-img img{
+    width: 350px;
+    margin: 0 50px;
+}
+.small-images{
+    display: flex;
+    flex-direction: column;
+}
+.small-images img{
+    width: 80px;
+    margin-bottom: 12px;
+}
+.detail-section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    margin-top: 70px;
+}
+.detail-section div{
+   margin-bottom: 20px;
+}
+.product-rating img{
+    width: 200px;
+}
+.old{
+    text-decoration: line-through;
+}
+.btn-section button{
+    border: none;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.product-quality-section{
+    text-align: center;
+    background-color: #e2e6e9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.size-section{
+    margin-top: 20px;
+}
+.size-section span{
+    background-color: hsl(200, 17%, 93%);
+    padding: 20px;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 1160px){
+    .product-section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 0;
+    }
+    .detail-section{
+        margin: 0 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-section{
+        margin: 0 0;
+        justify-content: center;
+        width: 100%;
+    }
+    .large-img img{
+        width: 300px;
+        margin: 0 20px;
+    }
+    .small-images img{
+        width: 68px;
+        margin-bottom: 12px;
+    }
+    .product-quality-section{
+        text-align: center;
+        background-color: #e2e6e9;
+        padding: 20px;
+        border-radius: 5px;
+        margin:20px 0;
+    }
+}
+@media only screen and (max-width: 450px){
+    .large-img img{
+        width: 200px;
+        margin: 0 10px;
+    }
+    .small-images img{
+        width: 43px;
+        margin-bottom: 12px;
+    }
+    .size-section span{
+        background-color: hsl(200, 17%, 93%);
+        padding: 20px;
+        margin-right: 0;
+    }
+}

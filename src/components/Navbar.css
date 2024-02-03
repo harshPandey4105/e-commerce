@@ -1,4 +1,4 @@
-nav{
+/* nav{
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -8,10 +8,15 @@ nav{
     z-index: 1;
     padding: 0;
     height: 80px;
-}
-.logo img{
+    width: 100%;
+    padding: 20px 0;
+} */
+/* .logo img{
     width: 100px;
     border-radius: 20px;
+    position: fixed;
+    left: 10px;
+    top: 10px;
 }
 .logo{
     display: flex;
@@ -20,11 +25,13 @@ nav{
 }
 .logo span{
     color: hsl(332, 98%, 50%);
-    position: relative;
-    right: 15px;
-}
-ul{
+    position: fixed;
+    left: 10px ;
+    top: 80px;
+} */
+/* ul{
     display: flex;
+    margin-left: 100px;
 }
 ul li{
     text-decoration: none;
@@ -32,27 +39,63 @@ ul li{
     margin: 0 20px;
     cursor: pointer;
     color:hsl(332, 98%, 50%) ;
-}
+} */
 
-.login-button{
+/* .login-button{
     border: 2px solid hsl(332, 98%, 50%) ;
     padding: 5px 15px;
     border-radius: 20px;
-    margin-right: 10px;
     background: none;
     color:hsl(332, 98%, 50%);
     background-color: aliceblue;
     cursor: pointer;
-}
-.login-button:active{
+} */
+/* .login-button:active{
     background-color: white;
-}
-.cart-logo{
+} */
+/* .cart-logo{
     font-size: 25px;
     margin-left: 30px;
     color:hsl(332, 98%, 50%) ;
     cursor: pointer;
-}
+} */
 .cart-logo:active{
     color:hwb(332 18% 8%) ;
 }
+.bar-btn{
+    border: none;
+    padding: 0;
+    background: none;
+}
+.list-btn{
+    font-size: 20px;
+    padding: 10px;
+    background:none;
+    color: #fe0059;
+    border: 2px solid #fe0059;
+    margin-right: 100px;
+    display: none;
+    position: fixed;
+    right: 10px;
+    top: 20px;
+}
+.list-btn:active{
+    background-color:aliceblue;
+    color: #fe0059;
+    border: 2px solid #fe0059;
+}
+.bar-elements{
+    display: flex;
+    position: relative;
+    right: 200px;
+}
+
+@media screen and (max-width: 770px) {
+    ul{
+        flex-direction: column;
+        /* margin-top: 30px; */
+    }
+    ul li{
+        margin: 10px 0;
+    }
+  }
